@@ -7,5 +7,3 @@ jobs:
     - name: Check out repo code
       uses: actions/checkout@v3
     - run: echo "$(cat hello_world.txt)"
-    - name: step 2
-    - run: echo "$(cat hello_world.txt)"
